@@ -1,4 +1,4 @@
-package com.dlap2023.apihpe2
+package com.dlap2023.apihpe2.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
