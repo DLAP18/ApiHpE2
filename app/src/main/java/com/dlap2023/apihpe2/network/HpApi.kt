@@ -1,25 +1,23 @@
 package com.dlap2023.apihpe2.network
 
 import com.dlap2023.apihpe2.model.CharacterDetail
+import com.dlap2023.apihpe2.model.Character
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Path
+import retrofit2.http.Url
 
 interface HpApi {
     //https://hp-api.onrender.com/api/characters/
 
-    @GET("api/characters/{opt}")
-    fun getCategoryHpCharacter(
+    @GET("characters/{opt}")
+    fun getHpCategoryCharacters(
+        //@Url url: String?
         @Path("opt") opt: String?
-    ): Call<CharacterDetail>
+    ): Call<ArrayList<Character>>
 
-    @GET("api/characters/students/{id}")
-    fun getHpCharacterStudentDetail(
-        @Path("id") id: String?
-    ): Call<CharacterDetail>
-
-    @GET("api/characters/students/{id}")
-    fun getHpCharacterStaffDetail(
+    @GET("character/{id}")
+    fun getHpCharacterDetail(
         @Path("id") id: String?
     ): Call<CharacterDetail>
 }

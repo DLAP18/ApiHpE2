@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#946614"
+    android:background="@color/bluec"
     tools:context=".activities.Characters">
 
     <androidx.recyclerview.widget.RecyclerView
@@ -21,6 +21,8 @@
         style="?android:attr/progressBarStyle"
         android:layout_width="80dp"
         android:layout_height="80dp"
+        android:indeterminateDrawable="@drawable/progress_anim"
+        android:indeterminateDuration="1500"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

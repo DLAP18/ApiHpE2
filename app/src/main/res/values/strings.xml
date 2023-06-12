@@ -2,4 +2,18 @@
     <string name="app_name">ApiHpE2</string>
     <string name="bienvenida">Bienvenid@ a Hogwarts</string>
     <string name="elegir">Elige una opción</string>
+    <string name="cEstudiante">students</string>
+    <string name="cEmpleado">staff</string>
+    <string name="rServidor">Respuesta del servidor: %s</string>
+    <string name="rDatos">Datos: %s</string>
+    <string name="sinConexion">No hay conexión</string>
+    <string name="tvHouse">Casa</string>
+    <string name="tvfNacimiento">Fecha de\nNacimiento</string>
+    <string name="tvEspecie">Especie</string>
+    <string name="tvMago">Mago</string>
+    <string name="tvAscendencia">Ascendencia</string>
+    <string name="tvPatronus">Patronus</string>
+    <string name="btnRegreso">Regresar</string>
+    <string name="afirmacion">Si</string>
+    <string name="negacion">No</string>
 </resources>
